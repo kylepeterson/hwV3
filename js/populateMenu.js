@@ -6,6 +6,7 @@ $(function() {
 function populatePizzas() {
 	var instance;
 	$.each(com.dawgpizza.menu.pizzas, function() {
+		instance.empty();
     	instance = $('.pizza').clone();
     	instance.find('.name').html(this.name);
        	instance.find('.description').html(this.description);
