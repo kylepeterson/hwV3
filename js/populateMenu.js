@@ -19,9 +19,15 @@ function populatePizzas() {
     	description.html(pizza.description);
     	var prices = $(document.createElement('dd'));
     	prices.html('$' + pizza.prices[0] + '/$' + pizza.prices[1] + '/$' + pizza.prices[2]);
-    	$('.meat-list').append(name);
-    	$('.meat-list').append(description);
-    	$('.meat-list').append(prices);
+    	if(pizza.vegetarian) {
+    		$('.veggie-list').append(name);
+	    	$('.veggie-list').append(description);
+	    	$('.veggie-list').append(prices);
+    	} else {
+	    	$('.meat-list').append(name);
+	    	$('.meat-list').append(description);
+	    	$('.meat-list').append(prices);
+	    }
 
 
 
