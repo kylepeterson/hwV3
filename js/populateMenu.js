@@ -1,8 +1,8 @@
 // On Document Ready
 $(function() {
 	populatePizzas();
-	populateDrinks();
-	populateDesserts();
+	//populateDrinks();
+	//populateDesserts();
 });
 
 function populatePizzas() {
@@ -22,7 +22,7 @@ function populatePizzas() {
 	});
 }
 
-function populateDrinks() {
+/*function populateDrinks() {
 	var instance;
 	$.each(com.dawgpizza.menu.drinks, function() {
     	instance = $('.drinks-and-dessert .template').clone();
@@ -42,4 +42,4 @@ function populateDesserts() {
     	instance.removeClass('template');
 	    $('.desserts').append(instance);
 	});
-}
+}*/
