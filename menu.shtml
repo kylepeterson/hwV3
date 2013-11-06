@@ -49,10 +49,7 @@
 				</div>
 
 				<div id="drinks-and-dessert">
-					<span class="template drink-dessert">
-						<dt class="name"></dt>
-						<dd class="price"></dd>
-					</span>
+					
 					<h2>Drinks</h2>
 					<dl class="drinks">
 						<!-- Append Drinks Here -->
