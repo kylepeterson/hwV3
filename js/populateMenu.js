@@ -4,19 +4,18 @@ $(function() {
 });
 
 function populatePizzas() {
-	var i;
-	var pizza;
 	var instance;
-	for (i = 0; i < com.dawgpizza.menu.pizzas.length; i++) {
-    	pizza = com.dawgpizza.menu.pizzas[i];
+	$.each(com.dawgpizza.menu.pizzas, function() {
     	instance = $('.pizza').clone();
-    	instance.find('.name').html(pizza.name);
-       	instance.find('.description').html(pizza.description);
-    	instance.find('.prices').html('$' + pizza.prices[0] + '/$' + pizza.prices[1] + '/$' + pizza.prices[2]);
+    	instance.find('.name').html(this.name);
+       	instance.find('.description').html(this.description);
+    	instance.find('.prices').html('$' + this.prices[0] + '/$' + this.prices[1] + '/$' + this.prices[2]);
     	instance.removeClass('template');
-    	if(pizza.vegetarian)
+    	if(pizza.vegetarian) {
 	    	$('.veggie-list').append(instance);
-	    else
+    	}
+	    else {
 	    	$('.meat-list').append(instance);
-	}
+	    }
+	});
 }
