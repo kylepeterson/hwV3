@@ -1,3 +1,4 @@
+// On Document Ready
 $(function() {
 	populatePizzas();
 });
@@ -13,10 +14,9 @@ function populatePizzas() {
        	instance.find('.description').html(pizza.description);
     	instance.find('.prices').html('$' + pizza.prices[0] + '/$' + pizza.prices[1] + '/$' + pizza.prices[2]);
     	instance.removeClass('template');
-    	if(pizza.vegetarian) {
+    	if(pizza.vegetarian)
 	    	$('.veggie-list').append(instance);
-	    } else {
+	    else
 	    	$('.meat-list').append(instance);
-	    }
-	} //for each pizza
+	}
 }
