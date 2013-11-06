@@ -12,6 +12,11 @@
 
 			<section id = "menu"> 
 				<h1>Dawg Pizza Menu</h1>
+				<div class="template pizza">
+					<dt class="name"></dt>
+					<dd class="description"></dd>
+					<dd class="prices"></dd>
+				</div>
 				<h2>Pizzas</h2>
 				<p>
 					All our pizzas are made with hand-thrown thin crust, baked in real wood ovens. Choose from one of these sizes:
@@ -31,12 +36,6 @@
 							<h3>Meat Pies</h3>
 							<dl class="meat-list">
 								<!-- Append Meat Pies Here -->
-								<div class="pizza">
-									<dt class="name">Pepperoni Pizza</dt>
-									<dd class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua.</dd>
-									<dd class="prices">$5/$10/$15</dd>
-								</div>
 							</dl>
 						</div>
 						<div class="col-md-6">
