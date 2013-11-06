@@ -1,15 +1,18 @@
 $(function() {
 	var i;
 	var pizza;
+	var instance;
 	for (i = 0; i < com.dawgpizza.menu.pizzas.length; i++) {
     	pizza = com.dawgpizza.menu.pizzas[i];
-
-	    //pizza.name = name of pizza
-	    //pizza.description = description of pizza
-	    //pizza.prices = array of three numbers, which are prices for small, medium, and large
-	    //pizza.prices[0] = price for small
-	    //pizza.prices[1] = price for medium
-	    //pizza.prices[2] = price for large
-
+    	instance = $('.pizza').clone();
+    	instance.find('.name').html(pizza.name);
+       	instance.find('.description').html(pizza.description);
+    	instance.find('.prices').html('$' + pizza.prices[0] + '/$' + pizza.prices[1] + '/$' + pizza.prices[2]);
+    	instance.removeClass('template');
+    	if(pizza.vegetarian) {
+    		$('.veggie-list').append(pizza);
+    	} else {
+    		$('.meat-list').append(pizza);
+    	}
 	} //for each pizza
 });

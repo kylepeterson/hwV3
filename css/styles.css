@@ -53,6 +53,10 @@ body {
 	background-color: rgb(106, 49, 142);
 }
 
+.template {
+	display: none;
+}
+
 /* Header area of the web page */
 header {
 	background-color: rgb(156, 117, 202);
