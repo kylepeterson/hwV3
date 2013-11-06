@@ -1,5 +1,3 @@
-
-
 $(function() {
 	var i;
 	var pizza;
