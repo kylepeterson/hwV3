@@ -75,4 +75,9 @@
 					</ul>
 				</div>
 			</section>
+			<!-- direct link to menu script -->
+			<script src="http://www.dawgpizza.com/orders/menu.js"></script>
+			<!-- my own JavaScript file, which will use the menu data structure
+    		(replace file name with the name of your script file) -->
+			<script src="js/my-own-script-file.js"></script>
 		<!--#include virtual="footer.html" -->
