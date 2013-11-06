@@ -1,4 +1,8 @@
 $(function() {
+	populatePizzas();
+});
+
+function populatePizzas() {
 	var i;
 	var pizza;
 	var instance;
@@ -9,10 +13,7 @@ $(function() {
        	instance.find('.description').html(pizza.description);
     	instance.find('.prices').html('$' + pizza.prices[0] + '/$' + pizza.prices[1] + '/$' + pizza.prices[2]);
     	instance.removeClass('template');
-    	if(pizza.vegetarian) {
-    		$('.veggie-list').append(pizza);
-    	} else {
-    		$('.meat-list').append(pizza);
-    	}
+    	$('.meat-list').append(pizza);
+    	
 	} //for each pizza
-});
+}
