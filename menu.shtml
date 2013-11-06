@@ -64,9 +64,4 @@
 					</ul>
 				</div>
 			</section>
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-		<script src="lib/bootstrap-3.0.0/js/bootstrap.min.js"></script>
-		<script src="http://www.dawgpizza.com/orders/menu.js"></script>
-		<!-- my own JavaScript file, which will use the menu data structure -->
-		<script src="js/populateMenu.js"></script>
 		<!--#include virtual="footer.html" -->

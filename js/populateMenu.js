@@ -7,13 +7,14 @@ function populatePizzas() {
 	var pizza;
 	var instance;
 	for (i = 0; i < com.dawgpizza.menu.pizzas.length; i++) {
-    	pizza = com.dawgpizza.menu.pizzas[i];
+    	pizza = com.dawgpizza.menu.pizzas[i];/*
     	instance = $('.pizza').clone();
     	instance.find('.name').html(pizza.name);
        	instance.find('.description').html(pizza.description);
     	instance.find('.prices').html('$' + pizza.prices[0] + '/$' + pizza.prices[1] + '/$' + pizza.prices[2]);
-    	instance.removeClass('template');
-    	$('.meat-list').append(pizza);
-    	
+    	instance.removeClass('template');*/
+    	var name = $(document.createElement('dt'))
+    	name.html(pizza.name);
+    	$('.meat-list').append(name);
 	} //for each pizza
 }
