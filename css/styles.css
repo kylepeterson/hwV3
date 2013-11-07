@@ -119,7 +119,7 @@ nav li:hover, nav h1:hover {
 }
 
 /* Main Section of the Home page */
-#pizza1 {
+.item img {
 	width: 100%;
 	height:	auto;
 	margin: 0;
