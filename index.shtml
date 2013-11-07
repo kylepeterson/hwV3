@@ -5,7 +5,7 @@
 <!-- Common heading content including meta data and header -->
 <!-- Note: The SSI causes the HTML validator to fail as it does not see the code in header.html. It passes with the SSI code in this file. -->
 <!--#include virtual="header.html" -->
-			
+			<section>
 				<div id="pizza-carousel" class="carousel slide">
 					<ol class="carousel-indicators">
 		        		<li data-target="#pizza-carousel" data-slide-to="0" class="active"></li>
@@ -42,7 +42,7 @@
 						Awesome wood-fired pizza with fresh ingredients baked to order. Come in and eat, or call us for delivery!
 					</p>
 				</div>
-
+			</section>
 			<section id="info">
 				<div class="row">
 						<div class="col-md-6">
