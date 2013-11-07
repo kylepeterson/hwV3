@@ -118,7 +118,7 @@ nav li:hover, nav h1:hover {
 	color: rgb(106, 49, 142);
 }
 
-nav {
+nav a {
 	z-index: 20;
 }
 
