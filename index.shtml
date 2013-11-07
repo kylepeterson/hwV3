@@ -39,7 +39,6 @@
 	    		<a class="right carousel-control" href="#pizza-carousel" data-slide="next">
 	       			<span class="icon-next"></span>
 	    		</a>
-	    	</div>
 				<p id="description">
 					Awesome wood-fired pizza with fresh ingredients baked to order. Come in and eat, or call us for delivery!
 				</p>
