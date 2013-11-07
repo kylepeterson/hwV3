@@ -7,10 +7,10 @@
 <!-- Note: The SSI causes the HTML validator to fail as it does not see the code in header.html. It passes with the SSI code in this file. -->
 <!--#include virtual="header.html" -->
 			<section>
-				<img id="pizza1" src="img/order.jpg" alt="an ordering stand for pizza">
+				<img id="order-pic" src="img/order.jpg" alt="an ordering stand for pizza">
 			</section>
 
-			<section id = "menu"> 
+			<section id="menu"> 
 				<h1>Dawg Pizza Menu</h1>
 				<h2>Pizzas</h2>
 				<p>

@@ -123,7 +123,7 @@ nav a {
 }
 
 /* Main Section of the Home page */
-.item img {
+.item img, #oven-pic, #order-pic {
 	width: 100%;
 	height:	auto;
 	margin: 0;
