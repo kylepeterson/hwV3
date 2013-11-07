@@ -141,14 +141,14 @@ nav a {
 @media (min-width: 1px) {
   #description {
 	font-size: 1em;
-	top: 34%;
+	top: 25%;
   }
 }
 
 @media (min-width: 992px) {
   #description {
 	font-size: 2em;
-	top: 36%;
+	top: 33%;
   }
 }
 
