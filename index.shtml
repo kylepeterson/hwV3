@@ -38,10 +38,10 @@
 			       			<span class="icon-next"></span>
 		    			</a>
 		        	</div>
-					<p id="description">
-						Awesome wood-fired pizza with fresh ingredients baked to order. Come in and eat, or call us for delivery!
-					</p>
 				</div>
+				<p id="description">
+					Awesome wood-fired pizza with fresh ingredients baked to order. Come in and eat, or call us for delivery!
+				</p>
 			</section>
 			<section id="info">
 				<div class="row">
