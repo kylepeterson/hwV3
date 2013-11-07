@@ -6,7 +6,40 @@
 <!-- Note: The SSI causes the HTML validator to fail as it does not see the code in header.html. It passes with the SSI code in this file. -->
 <!--#include virtual="header.html" -->
 			<section>
-				<img id="pizza1" src="img/pizza1.jpg" alt="fresh pizzas">
+				<div id="pizza-carousel" class="carousel slide">
+				<ol class="carousel-indicators">
+	        		<li data-target="#pizza-carousel" data-slide-to="0" class="active"></li>
+	        		<li data-target="#pizza-carousel" data-slide-to="1"></li>
+	        		<li data-target="#pizza-carousel" data-slide-to="2"></li>
+	        		<li data-target="#pizza-carousel" data-slide-to="3"></li>
+	   			 </ol>
+
+				<div class="carousel-inner">
+	        		<!-- slide -->
+	        		<div class="item active">
+	            		<img src="img/pizza1.jpg" alt="Summer in the Park">
+	        		</div>
+
+	        		<div class="item">
+	            		<img src="img/order.jpg" alt="Autumn in the Park">
+	        		</div>
+
+	        		<div class="item">
+	            		<img src="img/oven2.jpg" alt="Winter in the Park">
+	        		</div>
+
+	        		<div class="item">
+	            		<img src="img/multi-pizzas.jpg" alt="Spring in the Park">
+	        		</div>
+	        	</div>
+	        	<!-- left-right controls -->
+	    		<a class="left carousel-control" href="#pawnee-carousel" data-slide="prev">
+	        		<span class="icon-prev"></span>
+	    		</a>
+	    		<a class="right carousel-control" href="#pawnee-carousel" data-slide="next">
+	       			<span class="icon-next"></span>
+	    		</a>
+	    	</div>
 				<p id="description">
 					Awesome wood-fired pizza with fresh ingredients baked to order. Come in and eat, or call us for delivery!
 				</p>
