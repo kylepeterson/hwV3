@@ -1,3 +1,4 @@
 $(function() {
-	$('.carousel').carousel();
+	// Auto plays the carousel
+	$('pizza-carousel').carousel();
 });
