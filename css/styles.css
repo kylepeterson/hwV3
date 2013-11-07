@@ -118,6 +118,10 @@ nav li:hover, nav h1:hover {
 	color: rgb(106, 49, 142);
 }
 
+nav {
+	z-index: 20;
+}
+
 /* Main Section of the Home page */
 .item img {
 	width: 100%;
