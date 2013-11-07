@@ -208,6 +208,10 @@ nav a {
 	padding-top: 1em;
 }
 
+#pizza-carousel {
+	clear: both;
+}
+
 /* Menu Section of the menu page */
 
 
