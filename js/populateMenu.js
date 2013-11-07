@@ -22,10 +22,10 @@ function populatePizzas() {
 	});
 }
 
-/*function populateDrinks() {
+function populateDrinks() {
 	var instance;
 	$.each(com.dawgpizza.menu.drinks, function() {
-    	instance = $('.drinks-and-dessert .template').clone();
+    	instance = $('.drinks .template').clone();
     	instance.find('.name').html(this.name);
     	instance.find('.prices').html('$' + this.price);
     	instance.removeClass('template');
@@ -36,10 +36,10 @@ function populatePizzas() {
 function populateDesserts() {
 	var instance;
 	$.each(com.dawgpizza.menu.desserts, function() {
-    	instance = $('.drinks-and-dessert .template').clone();
+    	instance = $('.desserts .template').clone();
     	instance.find('.name').html(this.name);
     	instance.find('.prices').html('$' + this.price);
     	instance.removeClass('template');
 	    $('.desserts').append(instance);
 	});
-}*/
+}
