@@ -1,14 +1,14 @@
 // On Document Ready
 $(function() {
 	populatePizzas();
-	//populateDrinks();
-	//populateDesserts();
+	populateDrinks();
+	populateDesserts();
 });
 
 function populatePizzas() {
 	var instance;
 	$.each(com.dawgpizza.menu.pizzas, function() {
-    	instance = $('.template').clone();
+    	instance = $('.pizzas .template').clone();
     	instance.find('.name').html(this.name);
        	instance.find('.description').html(this.description);
     	instance.find('.prices').html('$' + this.prices[0] + '/$' + this.prices[1] + '/$' + this.prices[2]);
