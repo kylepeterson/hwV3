@@ -1,6 +1,6 @@
 $(function() {
 	//Stops the carousel from progressing if on hte last slide
-	$('#pizza-carousel').on('slid', '', function() {
+	$('#pizza-carousel').on('slide.bs.carousel', function() {
   		var $this = $(this);
 
   		if($('.carousel-inner .item:first').hasClass('active')) {
